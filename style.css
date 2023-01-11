@@ -12,10 +12,14 @@ nav div img{
 nav{
     padding: 0px 60px;
     display: flex;
-    background-color: rgb(246, 240, 240);
+    background-color:  #fff;
     color: rgb(9, 9, 9);
     justify-content: space-between;
     align-items: center;
+    box-shadow: 0px 3px 49px -22px rgba(0,0,0,0.75);
+    position: sticky;
+    top: 0px;
+    z-index: 1;
 }
 
 .header{
@@ -64,7 +68,7 @@ i{
     color: white;
     left: 55px;
     top: 150px;
-    font-size: 22px;
+    font-size: 25px;
     position: absolute;
 }
 .home button{
@@ -80,6 +84,161 @@ h1{
 }
 h3{
     font-weight: 400;
+}
+
+/* g5 are */
+
+.g5{
+    height: 75vh;
+    margin: 50px 70px;
+    display: flex;
+}
+.g5-text{
+    width: 40%;
+    height: 80%;
+}
+.g5-text p{
+    margin-bottom: 10px;
+    font-size: 30px;
+}
+.g5-text h1{
+    font-size: 64px;
+    margin-bottom: 55%;
+}
+.g5-img{
+    width: 60%;
+    height: 80%;
+}
+.g5-img img{
+    height: 100%;
+    width: 100%;
+}
+.g5 button{
+    padding: 15px 70px;
+}
+.buy-btn{
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border-radius: 3px;
+}
+.learn-btn{
+    font-size: 16px;
+    padding: 15px 16%;
+    background-color: white;
+    border: 1px solid black;
+    border-radius: 3px;
+
+}
+.g5-img-mobile{
+    background-image: url(./assests/LargeCardProduct_PC_10t.jpg.thumb.webp);
+    display: none;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+}
+.main-tv{
+    display: flex;
+    margin: 0px 50px;
+}
+.tv-section{
+    display: flex;
+    background-color: #f8f8f8;
+    width: 50%;
+    margin: 0px 10px;
+    padding: 20px;
+}
+.tv-text{
+    width: 50%;
+}
+.tv-img{
+    width: 50%;
+}
+.tv-img img{
+    width: 300px;
+}
+.tv-text h1{
+    font-size: 45px;
+    font-weight: 390;
+}
+.tv-text h3{
+    width: 80%;
+    font-size: 25px;
+    font-weight: 400;
+    padding-bottom: 15px;
+}
+.tv-text p{
+    padding-top: 83px;
+    padding-bottom: 15px;
+}
+.tv-section button{
+    font-size: 20px;
+    padding: 10px 25px
+}
+.buy-tv-btn{
+    border-radius: 3px;
+    background-color: black;
+    color: white;
+}
+.learn-tv-btn{
+    border: 1px solid black;
+    border-radius: 3px;
+}
+.tv-h1{
+    padding-bottom: 90px;
+}
+.tv-text img{
+    display: none;
+}
+.normal-h1{
+    padding-top: 50px;
+    margin: 0px 70px;
+    font-size: 16px;
+    font-weight: 100;
+    border-bottom: 2px solid rgb(197, 192, 192);
+}
+.sub-main ul{
+    margin-top: 50px;
+    list-style: none;
+    display: flex;
+}
+.sub-main ul li{
+    font-size: 25px;
+    font-weight: 500;
+    margin-left: 40px;
+}
+.mobile{
+    margin: 30px 50px;
+    display: flex;
+}
+.mobile img{
+    background-color:#f8f8f8;
+    width: 100%;
+    height: 80%;
+}
+.sub-mobile{
+    margin-left: 25px;
+}
+.mobile h1{
+    font-size: 32px;
+}
+.mobile p{
+    padding-top: 20px;
+    color: red;
+}
+.mobile h6{
+    padding-top: 20px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.btn-icon{
+    display: flex;
+    margin-top: 50px;
+    background-color: black;
+    color: white;
+    padding: 10px 10px 10px 10px;
+    font-size: 18px;
 }
 @media(max-width : 960px){
 
@@ -102,6 +261,78 @@ h3{
     .header{
         justify-content: center;
     }
+    .g5{    
+        margin: 0px;
+        width: 100%;
+    }
+    .g5-text{
+        margin-left: 10px;
+        width: 100%;
+        height: 50%;
+    }
+    .g5-img{
+        display: none;
+        width: 100%;
+    }
+    .g5-img-mobile{
+        margin-top: 2px;
+        width: 75%;
+        height: 100%;
+        display: block;
+    }
+    .g5-text h1{
+        margin-bottom: 0%;
+    }
+    .buy-btn{
+        padding: 15px 15px;
+    }
+    .learn-btn{
+        padding: 15px 15px;
+     
+    }
+    .main-tv{
+        flex-direction: column;
+        margin: 0px;
+    }
+    .tv-section{
+        width: 100%;
+    }
+    .tv-text{
+        width: 100%;
+    }
+    .tv-img{
+     display: none;
+    }
+    .tv-text img{
+        display: block;
+        width: 100%;
+    }
+    .tv-text p{
+        padding: 0px;
+    }
+    .tv-h1{
+        padding: 0px;
+    }
+    .normal-h1{
+        padding-top: 50px;
+        margin: 0px 20px;
+    }
+    .mobile{
+        flex-direction: column;
+    }
+    .sub-main ul{
+        /* display: none; */
+    }
+    .btn-icon{
+        margin-bottom: 20px;
+        margin-top: 10px;
+    }
+}
+@media(max-width:760px){
+    
+    .home button{
+        bottom: 45px;
+     }
 }
 @media(max-width : 1280px){
 
