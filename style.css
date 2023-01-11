@@ -205,8 +205,12 @@ h3{
 }
 .sub-main ul li{
     font-size: 25px;
-    font-weight: 500;
+    font-weight: 400;
     margin-left: 40px;
+}
+
+.sub-main ul:first-child{
+    margin-left: 70px;
 }
 .mobile{
     margin: 30px 50px;
@@ -215,7 +219,7 @@ h3{
 .mobile img{
     background-color:#f8f8f8;
     width: 100%;
-    height: 80%;
+    height: 70%;
 }
 .sub-mobile{
     margin-left: 25px;
@@ -235,10 +239,87 @@ h3{
 .btn-icon{
     display: flex;
     margin-top: 50px;
-    background-color: black;
-    color: white;
+    border: none;
     padding: 10px 10px 10px 10px;
     font-size: 18px;
+}
+.btn-icon{
+    background-color: black;
+    color: white;
+}
+.view-all h3{
+    margin-top: 150px;
+    margin-bottom: 50px;
+    font-weight: 400;
+    text-align: center;
+}
+.black-first{
+    padding: 80px;
+    padding-top: 80px;
+    padding-bottom: 20px;
+    background-color: black;
+    color: white;
+}
+.black-first h2{
+    font-weight: 400;
+}
+.black-first h1{
+    padding-top: 50px;
+    font-size: 55px;
+    font-weight: 400;
+    padding-bottom: 40px;
+}
+.line{
+    padding-top: 20px;
+    border-bottom: 2px solid white;
+}
+.light-white-line{
+    padding-top: 20px;
+    border-bottom: 2px solid rgb(181, 173, 173);
+}
+.white-heading{
+    color: rgba(0,0,0,.75);;
+}
+.black-first-part{
+    display: flex;
+}
+.black-first-part-img{
+    width: 65%;
+}
+.black-first-part-img img{
+    width: 100%;
+    height: 100%;
+}
+.black-first-part-text{
+    /* background-color: red; */
+    padding-left: 30px;
+    padding-right: 10px;
+    width: 35%;
+}
+.black-first-part-text h2{
+    font-size: 55px;
+    font-weight: 350;
+    padding-bottom: 350px;
+}
+.black-first-part-text p{
+    padding-top: 50px;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+.black-link{
+    font-size: 18px;
+    color: white;
+}
+.normal-pad{
+    margin: 550px;
+}
+.black-to-white{
+    background-color: white;
+    color: black;
+}
+.white-link{
+    font-size: 18px;
+    color: rgb(9, 9, 9);
 }
 @media(max-width : 960px){
 
@@ -317,12 +398,21 @@ h3{
         padding-top: 50px;
         margin: 0px 20px;
     }
+    .sub-main{
+        width: 40%;
+    }
+    /* kal tak ke liye only */
     .mobile{
         flex-direction: column;
-    }
+    } 
     .sub-main ul{
-        /* display: none; */
+        display: flex;
+        flex-direction: column;
     }
+    /* yaha tak */
+    .sub-main ul:first-child{
+        margin-left: 0%;
+    } 
     .btn-icon{
         margin-bottom: 20px;
         margin-top: 10px;
