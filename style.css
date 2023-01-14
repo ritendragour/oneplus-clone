@@ -206,29 +206,41 @@ h3{
 .sub-main ul li{
     font-size: 25px;
     font-weight: 400;
-    margin-left: 40px;
+    margin-right: 35px;
 }
 
 .sub-main ul:first-child{
     margin-left: 70px;
 }
 .mobile{
-    margin: 30px 50px;
+    padding: 55px;
     display: flex;
 }
 .mobile img{
     background-color:#f8f8f8;
-    width: 100%;
-    height: 70%;
+    width: 320px;
+    height: 320px;
 }
 .sub-mobile{
-    margin-left: 25px;
+    width: 25%;
+    margin-left: 15px;
+    display: flex;
+    flex-direction: column;
+}
+.mobile-title{
+    width: 95%;
+    min-height: 155px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* align-items: left; */
+    align-items: flex-start;
 }
 .mobile h1{
     font-size: 32px;
 }
 .mobile p{
-    padding-top: 20px;
+    padding-top: 12px;
     color: red;
 }
 .mobile h6{
@@ -237,19 +249,20 @@ h3{
     font-weight: 400;
 }
 .btn-icon{
-    display: flex;
-    margin-top: 50px;
+    display: flex;  
     border: none;
-    padding: 10px 10px 10px 10px;
+    padding: 10px 20px 10px 20px;
     font-size: 18px;
+    width: 100%;
+    background: none;
 }
-.btn-icon{
+.btn-icon:hover{
     background-color: black;
     color: white;
 }
 .view-all h3{
-    margin-top: 150px;
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 60px;
     font-weight: 400;
     text-align: center;
 }
@@ -259,8 +272,9 @@ h3{
     padding-bottom: 20px;
     background-color: black;
     color: white;
-}
+}   
 .black-first h2{
+    font-size: 32px;
     font-weight: 400;
 }
 .black-first h1{
@@ -278,9 +292,10 @@ h3{
     border-bottom: 2px solid rgb(181, 173, 173);
 }
 .white-heading{
-    color: rgba(0,0,0,.75);;
+    color: rgba(0,0,0,.75);
 }
 .black-first-part{
+
     display: flex;
 }
 .black-first-part-img{
@@ -297,8 +312,8 @@ h3{
     width: 35%;
 }
 .black-first-part-text h2{
-    font-size: 55px;
-    font-weight: 350;
+    font-size: 53px;
+    font-weight: 400;
     padding-bottom: 350px;
 }
 .black-first-part-text p{
@@ -320,6 +335,166 @@ h3{
 .white-link{
     font-size: 18px;
     color: rgb(9, 9, 9);
+}
+
+/* os13 */
+.os13{
+    height: 80vh;
+    padding: 60px 50px;
+    background-color: black;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.os13 h3{
+    font-size: 27px;
+    font-weight: 500;
+    color:rgba(75, 73, 73,0.9);
+}
+.os13 h1{
+    font-size: 42px;
+    font-weight: 350;
+}
+.os13 p{
+    font-size: 21px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+.os13 a{
+    color: white;
+}
+.o2{  
+    width: 50%;
+    background-color:rgba(75, 73, 73,0.4);
+    display: flex;
+}
+.o2-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+}
+.o2-img{
+    width: 50%;
+    height: 100%;
+}
+.o2-img img{
+    width: 100%;
+    height: 100%;
+} 
+.o3{
+    margin-left: 25px;
+    background-color:rgba(75, 73, 73,0.4);
+    width: 50%;
+    display: flex;
+}
+.o3-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+    width: 50%;
+}
+.o3-img{
+    width: 50%;
+    height: 100%;
+}
+.o3-img img{
+    height: 100%;
+    width: 100%;
+}
+/* blog */
+.blog{
+    margin: 50px;
+    display: flex;
+}
+.blog h1{
+    font-size: 37px;
+    font-weight: 300;
+}
+.blog p{
+    font-size: 18px;
+    font-weight: 400;
+    color:rgba(33, 31, 31, 0.9);
+}
+.sub-blog{
+    height: 500px;
+    margin-left: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sub-blog img{
+    width: 100%;
+}
+.view-more-head{
+    display: flex;
+    justify-content: space-between;
+}
+.support{
+    margin: 50px 60px;
+    background-color: white;
+}
+.support h2{
+    font-size: 25px;
+    font-weight: 400;
+    color: rgba(42, 38, 38, 0.9);
+    padding-bottom: 5px;
+}
+.sub-support{
+    margin-top: 20px;
+    display: flex;
+    /* background-color: rgb(208, 196, 188); */
+}
+.support-left{
+    background-color: rgb(208, 196, 188);
+    display: flex;
+    width: 50%;
+}
+.support-left img{
+    height: 100%;
+    width: 100%;
+}
+.support-right{
+    display: flex;
+    height: 100%;
+    width: 50%;
+}
+.support-right img{
+    height: 100%;
+    width: 100%;
+}
+.support-text{
+    background-color: #f8f8f8;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 50%;
+}
+.support-img{
+    width: 50%;
+}
+.support h1{
+    font-size: 38px;
+    font-weight: 370;
+}
+.support p{
+    font-size: 18px;
+    font-weight: 400;
+    width: 85%;
+    margin-bottom: 20px;
+}
+.support h3{
+    color:rgba(137, 123, 123, 0.8);
+    font-size: 25px;
+    font-weight: 410;
+}
+.product-section{
+    margin:50px;
+    display: flex;
 }
 @media(max-width : 960px){
 
@@ -408,6 +583,9 @@ h3{
     .sub-main ul{
         display: flex;
         flex-direction: column;
+    }
+    .black-first-part-img{
+        display: none;
     }
     /* yaha tak */
     .sub-main ul:first-child{
