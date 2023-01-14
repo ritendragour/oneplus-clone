@@ -493,8 +493,70 @@ h3{
     font-weight: 410;
 }
 .product-section{
-    margin:50px;
+    margin: 30px 30px;
     display: flex;
+    /* justify-content: space-between; */
+    /* flex-direction: row; */
+}
+.product-section span{
+    display: flex;
+    font-size: 22px;
+    font-weight: 400;
+    width: 100%;
+    padding: 20px;
+    text-align: center;
+    padding: 30px;
+    border-top: 1px solid rgba(137, 123, 123, 0.8);
+    border-bottom: 1px solid rgba(137, 123, 123, 0.8); 
+}
+.product-section span:first-child{ 
+    border-right: 1px solid rgba(137, 123, 123, 0.8);
+}
+.product-section span:nth-child(2){
+    border-right: 1px solid rgba(137, 123, 123, 0.8);
+}
+.product-section span:nth-child(3){
+    border-right: 1px solid rgba(137, 123, 123, 0.8);
+}
+.connected{
+    background-color: black;
+    color: white;
+    padding: 60px 70px;
+}
+.connected h2{
+    font-size: 25px;
+    font-weight: 400;
+}
+.conn-both{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.conn-left{
+    width: 50%;
+}
+.conn-right{
+    margin-left: 25px;
+    width: 50%;
+}
+.conn-left img{
+    width: 100%;
+    position: relative;
+}
+.conn-right img{
+    width: 100%;
+    position: relative;
+}
+.conn-text{
+    padding: 20px;
+    z-index: 1;
+    position: absolute;
+}
+.conn-text h1{
+    width: 80%;
+    font-size: 35px;
+    font-weight: 300;
 }
 @media(max-width : 960px){
 
