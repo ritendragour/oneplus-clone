@@ -361,7 +361,6 @@ h3{
     font-size: 18px;
     color: rgb(9, 9, 9);
 }
-
 /* os13 */
 .os13{
     height: 100%;
@@ -802,6 +801,9 @@ img:hover{
     .black-first h1 ,.black-first h2{
         font-size: 25px;
         font-weight: 400;
+    }
+    .res-im{    
+        flex-direction: column-reverse;
     }
     .os13{
         flex-direction: column;
