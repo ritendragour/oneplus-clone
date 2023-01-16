@@ -4,7 +4,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    border: 1px solid red;
+    /* border: 1px solid red; */
 }
 nav div img{
     margin-right: 30px;
@@ -150,7 +150,7 @@ h3{
     display: flex;
     background-color: #f8f8f8;
     width: 50%;
-    margin: 0px 10px;
+    /* margin: 0px 10px; */
     padding: 20px;
 }
 .tv-text{
@@ -688,10 +688,6 @@ img:hover{
     transform: scale(1.05);
     transition: ease-in-out 0.3s;
 }
-.arr-dis{
-    display: flex;
-
-}
 @media(max-width : 960px){
 
     .hid{
@@ -745,6 +741,9 @@ img:hover{
     .main-tv{
         flex-direction: column;
         margin: 0px;
+    }  
+    .tv-section{
+        margin: 0px;
     }
     .tv-section{
         width: 100%;
@@ -782,6 +781,7 @@ img:hover{
     }
     .sub-mobile{
         width: 100%;
+        margin-left: 0px;
     }
     .mobile-title{
         width: 80%;
