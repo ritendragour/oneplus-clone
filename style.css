@@ -217,7 +217,7 @@ h3{
     margin-left: 70px;
 }
 .mobile{
-    /* padding: 55px; */
+    padding: 55px 55px 0px 55px;
     display: flex;
 }
 .mobile img{
@@ -230,6 +230,13 @@ h3{
     margin-left: 15px;
     display: flex;
     flex-direction: column;
+}
+/* target two attr in single one hover */
+
+.sub-mobile:hover .btn-icon{
+    justify-content: center;
+    background-color: black;
+    color: #fff;
 }
 .mobile-title{
     width: 95%;
@@ -255,13 +262,12 @@ h3{
     border: none;
     padding: 10px 20px 10px 20px;
     font-size: 18px;
-    width: 100%;
     background: none;
 }
-.btn-icon:hover{
+/* .btn-icon:hover{
     background-color: black;
     color: white;
-}
+} */
 .jan-26{
     height: 500px;
     display: flex;
@@ -788,7 +794,7 @@ img:hover{
     }
     .black-first{
         padding: 0px;
-        padding-top: 20px;
+        padding: 20px;
     }
     .black-first-part{
         flex-direction: column;
@@ -811,7 +817,7 @@ img:hover{
         flex-direction: column-reverse;
     }
     .os13{
-        padding: 0px;
+        padding: 20px;
         flex-direction: column;
     }
     .o2,.o3{
@@ -852,6 +858,7 @@ img:hover{
         display: none;
     }
     .blog{
+        padding: 20px;
         flex-direction: column;
     }   
     .blog{
@@ -861,6 +868,7 @@ img:hover{
         margin-left: 0px;
     }
     .support{
+        padding: 20px;
         margin: 0px;
     }
     .sub-support{
@@ -883,23 +891,9 @@ img:hover{
         flex-direction: column;
         justify-content: space-between;
     }
-    /* .connected {display: none;} */
     .contact-us{
         margin: 0px;
     }
-    /* .conn-both{
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-        margin-top: 30px;
-    }
-    .conn-left{
-        width: 100%;
-    }
-    .conn-right{
-        margin-left: 25px;
-        width: 100%;
-    } */
     .footer{
         margin:0px;
     }
