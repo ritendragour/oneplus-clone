@@ -547,34 +547,27 @@ h3{
 }
 .conn-both{
     display: flex;
-    flex-direction: row;
-    justify-content: space-between;
     margin-top: 30px;
 }
 .conn-left{
     width: 50%;
+    height: 380px;
+    background-size: cover;
+    background-image: url(./assests/back1.webp);
 }
 .conn-right{
+    background-image: url(./assests/back2.jpg);
+    background-size: cover;
     margin-left: 25px;
     width: 50%;
 }
-.conn-left img{
-    width: 100%;
-    position: relative;
-}
-.conn-right img{
-    width: 100%;
-    position: relative;
-}
 .conn-text{
-    height: 48%;
-    width: 25%;
+    height: 100%;
+    width: 60%;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 20px;
-    z-index: 1;
-    position: absolute;
 }
 .conn-text h1{
     font-size: 35px;
@@ -584,12 +577,14 @@ h3{
     margin-top: 5px;
     font-size: 18px;
     font-weight: 300;
+    /* margin-bottom: 120px; */
 }
 .conn-text h6{
     font-size: 15px;
     font-weight: 300;
 }
 .conn-text button{
+    width: 80%;
     margin-top: 5px;
     text-align: center;
     font-size: 20px;
@@ -888,7 +883,7 @@ img:hover{
         flex-direction: column;
         justify-content: space-between;
     }
-    .connected {display: none;}
+    /* .connected {display: none;} */
     .contact-us{
         margin: 0px;
     }
@@ -927,6 +922,29 @@ img:hover{
     .indi img{
         width: 8%;
         height: 8%;
+    }
+    
+    
+    .connected{
+        padding: 5px;
+        height: 100%;
+    }
+    .conn-both{
+        display: flex;
+        flex-direction: column;
+        margin-top: 0px;
+    }
+    .conn-left{
+        width: 100%;
+    }
+    .conn-right{
+        margin-top: 5px;
+        margin-left: 0px; 
+        width: 100%;
+    }
+    .conn-text{
+        height: 100%;
+        width: 100%;
     }
 }
 @media(max-width:760px){
