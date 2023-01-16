@@ -156,6 +156,9 @@ h3{
 .tv-text{
     width: 50%;
 }
+.show-hide-imagetag{
+    display: none;
+}
 .tv-img{
     width: 50%;
 }
@@ -720,9 +723,14 @@ img:hover{
         width: 100%;
         height: 50%;
     }
+    .show-hide-imagetag{
+        width: 100%;
+        height: 100%;
+        display: block;
+    }
     .g5-img{
         display: none;
-        width: 100%;
+        /* width: 100%; */
     }
     .g5-img-mobile{
         margin-top: 2px;
