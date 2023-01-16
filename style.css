@@ -711,6 +711,7 @@ img:hover{
     }
     .g5{    
         margin: 0px;
+        height: 100%;
         width: 100%;
     }
     .g5-text{
@@ -731,12 +732,8 @@ img:hover{
     .g5-text h1{
         margin-bottom: 0%;
     }
-    .buy-btn{
-        padding: 15px 15px;
-    }
-    .learn-btn{
-        padding: 15px 15px;
-     
+    .g5 button{
+        width: 100%;
     }
     .main-tv{
         flex-direction: column;
@@ -780,7 +777,7 @@ img:hover{
         height: 320px;
     }
     .sub-mobile{
-        width: 100%;
+        width: 90%;
         margin-left: 0px;
     }
     .mobile-title{
@@ -793,6 +790,10 @@ img:hover{
     .sub-main ul{
         display: flex;                                                                  
         flex-direction: column;
+    }
+    .black-first{
+        padding: 0px;
+        padding-top: 20px;
     }
     .black-first-part{
         flex-direction: column;
@@ -808,10 +809,14 @@ img:hover{
         font-size: 25px;
         font-weight: 400;
     }
+    .normal-pad{
+        margin: 0px;
+    }
     .res-im{    
         flex-direction: column-reverse;
     }
     .os13{
+        padding: 0px;
         flex-direction: column;
     }
     .o2,.o3{
@@ -853,15 +858,26 @@ img:hover{
     }
     .blog{
         flex-direction: column;
+    }   
+    .blog{
+        margin: 0px;
+    }
+    .sub-blog{
+        margin-left: 0px;
+    }
+    .support{
+        margin: 0px;
     }
     .sub-support{
-        flex-direction: column;
+        margin: 0px;
+        flex-direction: column; 
     }
     .support-left, .support-right{
         flex-direction: column-reverse;
         width: 100%;
     }
     .support-text{
+        padding: 0px;
         width: 100%;
     }
     .support-img{
@@ -873,6 +889,9 @@ img:hover{
         justify-content: space-between;
     }
     .connected {display: none;}
+    .contact-us{
+        margin: 0px;
+    }
     /* .conn-both{
         display: flex;
         flex-direction: column;
@@ -886,12 +905,19 @@ img:hover{
         margin-left: 25px;
         width: 100%;
     } */
+    .footer{
+        margin:0px;
+    }
     .footer span{
         margin: 0px 5px;
-        /* display: flex; */
-        /* flex-direction: column; */
         flex-wrap: wrap;
-    }    
+    }       
+    .footer span p{
+        font-size: 15px;
+    }
+    .bor p{
+        font-size: 12px;
+    }
     .img-26 img{
         height: 80%;
     }
